@@ -305,6 +305,11 @@ function ProductList({ onHomeClick }) {
 
                 <div style={styleObjUl}>
                     <div>
+                        <a href="#" onClick={(e) => handleHomeClick(e)} style={styleA}>
+                            Home
+                        </a>
+                    </div>
+                    <div>
                         <a href="#" onClick={(e) => handlePlantsClick(e)} style={styleA}>
                             Plants
                         </a>

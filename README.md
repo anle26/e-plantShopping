@@ -1,12 +1,13 @@
-# Paradise Nursery Shopping Application
+# e-plantShopping - Paradise Nursery Shopping Application
 
-Welcome to **Paradise Nursery**, an e-commerce web application designed for plant enthusiasts to explore, select, and purchase a diverse collection of houseplants. This project was developed as part of the IBM Front-End Developer specialization using React and Redux Toolkit.
+Welcome to **Paradise Nursery** (`e-plantShopping`), an e-commerce web application designed for plant enthusiasts to explore, select, and purchase a diverse collection of houseplants. This project was developed as part of the IBM Front-End Developer specialization using React and Redux Toolkit.
 
 ---
 
 ## Project Overview
 
-- **Project Name:** Paradise Nursery Shopping Cart Application
+- **Project Name:** e-plantShopping (Paradise Nursery Shopping Application)
+- **Repository:** e-plantShopping
 - **Tagline:** Where Green Meets Serenity
 - **Author:** anle26
 - **Technologies:** React, Redux Toolkit, React-Redux, Vite, CSS3, HTML5
@@ -53,7 +54,7 @@ Paradise Nursery offers a curated catalog of houseplants divided into distinct f
 │   ├── index.css           # Global resets and basic styles
 │   ├── main.jsx            # Application entry point with Redux Provider
 │   ├── ProductList.css     # Styling for product cards, grid, and navbar
-│   ├── ProductList.jsx     # Houseplant catalog grouped by category
+│   ├── ProductList.jsx     # Houseplant catalog grouped by category with Home/Plants/Cart links
 │   └── store.js            # Redux store configuration
 ├── index.html
 ├── package.json
@@ -71,8 +72,8 @@ Make sure you have [Node.js](https://nodejs.org/) (v16 or higher) installed on y
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/anle26/DWP.git
-   cd DWP
+   git clone https://github.com/anle26/e-plantShopping.git
+   cd e-plantShopping
    ```
 
 2. Install dependencies:
@@ -94,12 +95,12 @@ Make sure you have [Node.js](https://nodejs.org/) (v16 or higher) installed on y
 
 ## Submission Checklist
 
-- [x] **Task 1:** `README.md` containing project name details.
+- [x] **Task 1:** `README.md` containing `e-plantShopping` project name details.
 - [x] **Task 2:** `AboutUs.jsx` containing company details.
 - [x] **Task 3:** `App.css` implementing landing page background image.
 - [x] **Task 4:** `App.jsx` implementing landing page with company name and "Get Started" button.
 - [x] **Task 5:** `CartSlice.jsx` implementing Redux slice (`addItem`, `removeItem`, `updateQuantity`).
-- [x] **Task 6:** `ProductList.jsx` displaying plants by category, navbar, and dynamic cart badge.
+- [x] **Task 6:** `ProductList.jsx` displaying plants by category, navbar with Home/Plants/Cart, and dynamic cart badge.
 - [x] **Task 7:** `CartItem.jsx` displaying shopping cart, item totals, overall cart total, and quantity controls.
 
 ---
